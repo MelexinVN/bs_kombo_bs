@@ -1,0 +1,3 @@
+../Core/Src/kombo_spi.c:11:6:spi_init	0	static
+../Core/Src/kombo_spi.c:31:6:spi_send_byte	0	static
+../Core/Src/kombo_spi.c:52:9:spi_change_byte	0	static

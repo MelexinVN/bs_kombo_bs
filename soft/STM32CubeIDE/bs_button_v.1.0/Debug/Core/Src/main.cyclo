@@ -1,0 +1,12 @@
+../Core/Src/main.c:97:6:blink_led	3
+../Core/Src/main.c:109:10:crc16_calc	4
+../Core/Src/main.c:144:9:nrf_test	4
+../Core/Src/main.c:176:6:test_and_info	3
+../Core/Src/main.c:191:6:nrf24l01_receive	10
+../Core/Src/main.c:272:6:adc_init	2
+../Core/Src/main.c:292:7:reading_vcc	2
+../Core/Src/main.c:384:6:SystemClock_Config	6
+../Core/Src/main.c:309:5:main	2
+../Core/Src/main.c:427:6:but_callback	3
+../Core/Src/main.c:440:6:tim1_callback	4
+../Core/Src/main.c:465:6:Error_Handler	1

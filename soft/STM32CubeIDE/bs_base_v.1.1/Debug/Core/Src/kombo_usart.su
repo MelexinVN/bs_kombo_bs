@@ -1,0 +1,7 @@
+C:/Users/VMelehin/STM32Cube/Repository/STM32Cube_FW_F1_V1.8.5/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_ll_usart.h:412:22:LL_USART_Enable	16	static
+C:/Users/VMelehin/STM32Cube/Repository/STM32Cube_FW_F1_V1.8.5/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_ll_usart.h:1862:26:LL_USART_IsActiveFlag_TXE	16	static
+C:/Users/VMelehin/STM32Cube/Repository/STM32Cube_FW_F1_V1.8.5/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_ll_usart.h:2474:22:LL_USART_TransmitData8	16	static
+../Core/Src/kombo_usart.c:11:6:usart_init	16	static
+../Core/Src/kombo_usart.c:51:6:usart_transmit	16	static
+../Core/Src/kombo_usart.c:70:6:usart_print	24	static
+../Core/Src/kombo_usart.c:79:6:usart_println	24	static

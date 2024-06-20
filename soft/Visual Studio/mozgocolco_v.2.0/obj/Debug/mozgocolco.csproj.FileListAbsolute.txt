@@ -1,0 +1,44 @@
+F:\melexin\GitHub\bs\visual\mozgocolco\bin\Debug\mozgocolco.exe.config
+F:\melexin\GitHub\bs\visual\mozgocolco\bin\Debug\mozgocolco.exe
+F:\melexin\GitHub\bs\visual\mozgocolco\bin\Debug\mozgocolco.pdb
+F:\melexin\GitHub\bs\visual\mozgocolco\obj\Debug\mozgocolco.csproj.AssemblyReference.cache
+F:\melexin\GitHub\bs\visual\mozgocolco\obj\Debug\mozgocolco.Properties.Resources.resources
+F:\melexin\GitHub\bs\visual\mozgocolco\obj\Debug\mozgocolco.csproj.GenerateResource.cache
+F:\melexin\GitHub\bs\visual\mozgocolco\obj\Debug\mozgocolco.csproj.CoreCompileInputs.cache
+F:\melexin\GitHub\bs\visual\mozgocolco\obj\Debug\mozgocolco.exe
+F:\melexin\GitHub\bs\visual\mozgocolco\obj\Debug\mozgocolco.pdb
+f:\melexin\GitHub\bs\visual\mozgocolco\obj\Debug\mozgocolco.MainForm.resources
+f:\melexin\GitHub\bs\visual\mozgocolco\obj\Debug\mozgocolco.gameForm.resources
+C:\melexin\GitHub\bs\visual\mozgocolco\bin\Debug\mozgocolco.exe.config
+C:\melexin\GitHub\bs\visual\mozgocolco\bin\Debug\mozgocolco.exe
+C:\melexin\GitHub\bs\visual\mozgocolco\bin\Debug\mozgocolco.pdb
+C:\melexin\GitHub\bs\visual\mozgocolco\obj\Debug\mozgocolco.csproj.AssemblyReference.cache
+C:\melexin\GitHub\bs\visual\mozgocolco\obj\Debug\mozgocolco.gameForm.resources
+C:\melexin\GitHub\bs\visual\mozgocolco\obj\Debug\mozgocolco.MainForm.resources
+C:\melexin\GitHub\bs\visual\mozgocolco\obj\Debug\mozgocolco.Properties.Resources.resources
+C:\melexin\GitHub\bs\visual\mozgocolco\obj\Debug\mozgocolco.csproj.GenerateResource.cache
+C:\melexin\GitHub\bs\visual\mozgocolco\obj\Debug\mozgocolco.csproj.CoreCompileInputs.cache
+C:\melexin\GitHub\bs\visual\mozgocolco\obj\Debug\mozgocolco.exe
+C:\melexin\GitHub\bs\visual\mozgocolco\obj\Debug\mozgocolco.pdb
+E:\melexin\GitHub\kombo_bs\soft\mozgocolco\bin\Debug\mozgocolco.exe.config
+E:\melexin\GitHub\kombo_bs\soft\mozgocolco\bin\Debug\mozgocolco.exe
+E:\melexin\GitHub\kombo_bs\soft\mozgocolco\bin\Debug\mozgocolco.pdb
+E:\melexin\GitHub\kombo_bs\soft\mozgocolco\obj\Debug\mozgocolco.csproj.AssemblyReference.cache
+E:\melexin\GitHub\kombo_bs\soft\mozgocolco\obj\Debug\mozgocolco.gameForm.resources
+E:\melexin\GitHub\kombo_bs\soft\mozgocolco\obj\Debug\mozgocolco.MainForm.resources
+E:\melexin\GitHub\kombo_bs\soft\mozgocolco\obj\Debug\mozgocolco.Properties.Resources.resources
+E:\melexin\GitHub\kombo_bs\soft\mozgocolco\obj\Debug\mozgocolco.csproj.GenerateResource.cache
+E:\melexin\GitHub\kombo_bs\soft\mozgocolco\obj\Debug\mozgocolco.csproj.CoreCompileInputs.cache
+E:\melexin\GitHub\kombo_bs\soft\mozgocolco\obj\Debug\mozgocolco.exe
+E:\melexin\GitHub\kombo_bs\soft\mozgocolco\obj\Debug\mozgocolco.pdb
+E:\melexin\GitHub\kombo_bs\public\soft\Visual Studio\mozgocolco_v.2.0\bin\Debug\mozgocolco.exe.config
+E:\melexin\GitHub\kombo_bs\public\soft\Visual Studio\mozgocolco_v.2.0\bin\Debug\mozgocolco.exe
+E:\melexin\GitHub\kombo_bs\public\soft\Visual Studio\mozgocolco_v.2.0\bin\Debug\mozgocolco.pdb
+E:\melexin\GitHub\kombo_bs\public\soft\Visual Studio\mozgocolco_v.2.0\obj\Debug\mozgocolco.csproj.AssemblyReference.cache
+E:\melexin\GitHub\kombo_bs\public\soft\Visual Studio\mozgocolco_v.2.0\obj\Debug\mozgocolco.gameForm.resources
+E:\melexin\GitHub\kombo_bs\public\soft\Visual Studio\mozgocolco_v.2.0\obj\Debug\mozgocolco.MainForm.resources
+E:\melexin\GitHub\kombo_bs\public\soft\Visual Studio\mozgocolco_v.2.0\obj\Debug\mozgocolco.Properties.Resources.resources
+E:\melexin\GitHub\kombo_bs\public\soft\Visual Studio\mozgocolco_v.2.0\obj\Debug\mozgocolco.csproj.GenerateResource.cache
+E:\melexin\GitHub\kombo_bs\public\soft\Visual Studio\mozgocolco_v.2.0\obj\Debug\mozgocolco.csproj.CoreCompileInputs.cache
+E:\melexin\GitHub\kombo_bs\public\soft\Visual Studio\mozgocolco_v.2.0\obj\Debug\mozgocolco.exe
+E:\melexin\GitHub\kombo_bs\public\soft\Visual Studio\mozgocolco_v.2.0\obj\Debug\mozgocolco.pdb

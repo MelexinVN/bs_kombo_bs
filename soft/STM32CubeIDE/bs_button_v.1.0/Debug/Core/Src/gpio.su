@@ -1,0 +1,2 @@
+C:/Users/VMelehin/STM32Cube/Repository/STM32Cube_FW_F0_V1.11.3/Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_ll_bus.h:227:22:LL_AHB1_GRP1_EnableClock	8	static
+../Core/Src/gpio.c:42:6:MX_GPIO_Init	56	static

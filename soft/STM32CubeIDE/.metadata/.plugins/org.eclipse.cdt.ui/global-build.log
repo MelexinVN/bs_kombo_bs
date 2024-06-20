@@ -1,0 +1,7 @@
+08:58:22 **** Incremental Build of configuration Debug for project bs_base_v.1.1 ****
+make -j8 all 
+arm-none-eabi-size  bs_base_v.1.1.elf 
+   text	   data	    bss	    dec	    hex	filename
+  26204	    268	   2540	  29012	   7154	bs_base_v.1.1.elf
+Finished building: default.size.stdout
+ 

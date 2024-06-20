@@ -1,0 +1,138 @@
+!SESSION 2024-06-19 12:52:37.108 -----------------------------------------------
+eclipse.buildId=Version 1.15.0
+java.version=17.0.8.1
+java.vendor=Eclipse Adoptium
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=ru_RU
+Command-line arguments:  -os win32 -ws win32 -arch x86_64
+
+!ENTRY com.st.stm32cube.ide.mcu.informationcenter 4 4 2024-06-19 12:52:59.935
+!MESSAGE CubeMX plugin appears to be active, Log4j initialization might be too late.
+
+!ENTRY com.st.stm32cube.ide.mcu.informationcenter 1 1 2024-06-19 12:52:59.948
+!MESSAGE Log4j2 initialized with config file E:\melexin\GitHub\kombo_bs\public\soft\STM32CubeIDE\.metadata\.log4j2.xml
+
+!ENTRY com.st.stm32cube.ide.mcu.ide 1 1 2024-06-19 12:53:11.315
+!MESSAGE Started RMI Server, listening on port 41337
+
+!ENTRY org.eclipse.ui.workbench 4 2 2024-06-19 12:53:33.574
+!MESSAGE Problems occurred when invoking code from plug-in: "org.eclipse.ui.workbench".
+!STACK 0
+java.lang.NullPointerException: Cannot invoke "org.eclipse.cdt.managedbuilder.core.IManagedBuildInfo.getDefaultConfiguration()" because "buildInfo" is null
+	at com.st.stm32cube.ide.mcu.build.ui.decorator.BoldDecorator.decorate(BoldDecorator.java:79)
+	at org.eclipse.ui.internal.decorators.LightweightDecoratorDefinition.decorate(LightweightDecoratorDefinition.java:253)
+	at org.eclipse.ui.internal.decorators.LightweightDecoratorManager$LightweightRunnable.run(LightweightDecoratorManager.java:105)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:47)
+	at org.eclipse.ui.internal.decorators.LightweightDecoratorManager.decorate(LightweightDecoratorManager.java:360)
+	at org.eclipse.ui.internal.decorators.LightweightDecoratorManager.getDecorations(LightweightDecoratorManager.java:346)
+	at org.eclipse.ui.internal.decorators.DecorationScheduler$1.queue(DecorationScheduler.java:419)
+	at org.eclipse.ui.internal.decorators.DecorationScheduler$1.run(DecorationScheduler.java:397)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.eclipse.ui 4 4 2024-06-19 12:53:33.576
+!MESSAGE Exception in Decorator. The 'linkerDecorator' decorator will be disabled.
+!SUBENTRY 1 org.eclipse.ui 4 4 2024-06-19 12:53:33.576
+!MESSAGE Cannot invoke "org.eclipse.cdt.managedbuilder.core.IManagedBuildInfo.getDefaultConfiguration()" because "buildInfo" is null
+!STACK 0
+java.lang.NullPointerException: Cannot invoke "org.eclipse.cdt.managedbuilder.core.IManagedBuildInfo.getDefaultConfiguration()" because "buildInfo" is null
+	at com.st.stm32cube.ide.mcu.build.ui.decorator.BoldDecorator.decorate(BoldDecorator.java:79)
+	at org.eclipse.ui.internal.decorators.LightweightDecoratorDefinition.decorate(LightweightDecoratorDefinition.java:253)
+	at org.eclipse.ui.internal.decorators.LightweightDecoratorManager$LightweightRunnable.run(LightweightDecoratorManager.java:105)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:47)
+	at org.eclipse.ui.internal.decorators.LightweightDecoratorManager.decorate(LightweightDecoratorManager.java:360)
+	at org.eclipse.ui.internal.decorators.LightweightDecoratorManager.getDecorations(LightweightDecoratorManager.java:346)
+	at org.eclipse.ui.internal.decorators.DecorationScheduler$1.queue(DecorationScheduler.java:419)
+	at org.eclipse.ui.internal.decorators.DecorationScheduler$1.run(DecorationScheduler.java:397)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.eclipse.cdt.core 1 0 2024-06-19 12:53:42.496
+!MESSAGE Indexed 'bs_button_v.1.0' (23 sources, 90 headers) in 3.91 sec: 4,860 declarations; 18,910 references; 0 unresolved inclusions; 1 syntax errors; 2 unresolved names (0.0084%)
+
+!ENTRY org.eclipse.cdt.core 1 0 2024-06-19 12:53:47.548
+!MESSAGE Indexed 'bs_base_v.1.1' (42 sources, 112 headers) in 5.04 sec: 7,794 declarations; 46,021 references; 9 unresolved inclusions; 1 syntax errors; 2 unresolved names (0.0037%)
+
+!ENTRY org.eclipse.equinox.p2.metadata.repository 4 1000 2024-06-19 12:53:48.762
+!MESSAGE No repository found at https://sw-center.st.com/stm32cubeide/updatesite1.
+
+!ENTRY org.eclipse.equinox.p2.metadata.repository 4 1000 2024-06-19 12:53:52.857
+!MESSAGE No repository found at https://sw-center.st.com/stm32cubeide/openstlinux/updatesite1.
+
+!ENTRY org.eclipse.core.resources 4 77 2024-06-19 12:54:37.340
+!MESSAGE Invalid project description.
+!SUBENTRY 1 unknown 0 0 2024-06-19 12:54:37.340
+!MESSAGE OK
+!SUBENTRY 1 org.eclipse.core.resources 4 77 2024-06-19 12:54:37.340
+!MESSAGE E:\melexin\GitHub\kombo_bs\public\soft\STM32CubeIDE\bs_base_v.1.1 overlaps the location of another project: 'bs_base_v.1.1'
+
+!ENTRY com.st.stm32cube.common.projectcreation 4 0 2024-06-19 12:54:37.342
+!MESSAGE Project is null
+
+!ENTRY org.eclipse.core.resources 4 77 2024-06-19 12:55:40.654
+!MESSAGE Invalid project description.
+!SUBENTRY 1 unknown 0 0 2024-06-19 12:55:40.654
+!MESSAGE OK
+!SUBENTRY 1 org.eclipse.core.resources 4 77 2024-06-19 12:55:40.654
+!MESSAGE E:\melexin\GitHub\kombo_bs\public\soft\STM32CubeIDE\bs_base_v.1.1 overlaps the location of another project: 'bs_base_v.1.1'
+
+!ENTRY com.st.stm32cube.common.projectcreation 4 0 2024-06-19 12:55:40.655
+!MESSAGE Project is null
+
+!ENTRY org.eclipse.core.resources 4 77 2024-06-19 12:55:46.445
+!MESSAGE Invalid project description.
+!SUBENTRY 1 unknown 0 0 2024-06-19 12:55:46.445
+!MESSAGE OK
+!SUBENTRY 1 org.eclipse.core.resources 4 77 2024-06-19 12:55:46.445
+!MESSAGE E:\melexin\GitHub\kombo_bs\public\soft\STM32CubeIDE\bs_base_v.1.1 overlaps the location of another project: 'bs_base_v.1.1'
+
+!ENTRY com.st.stm32cube.common.projectcreation 4 0 2024-06-19 12:55:46.446
+!MESSAGE Project is null
+!SESSION 2024-06-20 08:51:17.991 -----------------------------------------------
+eclipse.buildId=Version 1.15.0
+java.version=17.0.8.1
+java.vendor=Eclipse Adoptium
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=ru_RU
+Command-line arguments:  -os win32 -ws win32 -arch x86_64
+
+!ENTRY com.st.stm32cube.ide.mcu.informationcenter 4 4 2024-06-20 08:51:49.392
+!MESSAGE CubeMX plugin appears to be active, Log4j initialization might be too late.
+
+!ENTRY com.st.stm32cube.ide.mcu.informationcenter 1 1 2024-06-20 08:51:49.446
+!MESSAGE Log4j2 initialized with config file E:\melexin\GitHub\kombo_bs\public\soft\STM32CubeIDE\.metadata\.log4j2.xml
+
+!ENTRY com.st.stm32cube.ide.mcu.ide 1 1 2024-06-20 08:52:06.931
+!MESSAGE Started RMI Server, listening on port 41337
+
+!ENTRY org.eclipse.equinox.p2.metadata.repository 4 1000 2024-06-20 08:52:40.547
+!MESSAGE No repository found at https://sw-center.st.com/stm32cubeide/updatesite1.
+
+!ENTRY org.eclipse.equinox.p2.metadata.repository 4 1000 2024-06-20 08:52:44.354
+!MESSAGE No repository found at https://sw-center.st.com/stm32cubeide/openstlinux/updatesite1.
+
+!ENTRY org.eclipse.core.resources 4 77 2024-06-20 08:53:21.551
+!MESSAGE Invalid project description.
+!SUBENTRY 1 unknown 0 0 2024-06-20 08:53:21.551
+!MESSAGE OK
+!SUBENTRY 1 org.eclipse.core.resources 4 77 2024-06-20 08:53:21.551
+!MESSAGE E:\melexin\GitHub\kombo_bs\public\soft\STM32CubeIDE\bs_base_v.1.1 overlaps the location of another project: 'bs_base_v.1.1'
+
+!ENTRY com.st.stm32cube.common.projectcreation 4 0 2024-06-20 08:53:21.553
+!MESSAGE Project is null
+
+!ENTRY org.eclipse.core.resources 4 77 2024-06-20 08:56:16.718
+!MESSAGE Invalid project description.
+!SUBENTRY 1 unknown 0 0 2024-06-20 08:56:16.719
+!MESSAGE OK
+!SUBENTRY 1 org.eclipse.core.resources 4 77 2024-06-20 08:56:16.719
+!MESSAGE E:\melexin\GitHub\kombo_bs\public\soft\STM32CubeIDE\bs_base_v.1.1 overlaps the location of another project: 'bs_base_v.1.1'
+
+!ENTRY com.st.stm32cube.common.projectcreation 4 0 2024-06-20 08:56:16.719
+!MESSAGE Project is null
+
+!ENTRY org.eclipse.core.resources 4 77 2024-06-20 08:58:22.919
+!MESSAGE Invalid project description.
+!SUBENTRY 1 unknown 0 0 2024-06-20 08:58:22.919
+!MESSAGE OK
+!SUBENTRY 1 org.eclipse.core.resources 4 77 2024-06-20 08:58:22.919
+!MESSAGE E:\melexin\GitHub\kombo_bs\public\soft\STM32CubeIDE\bs_base_v.1.1 overlaps the location of another project: 'bs_base_v.1.1'
+
+!ENTRY com.st.stm32cube.common.projectcreation 4 0 2024-06-20 08:58:22.920
+!MESSAGE Project is null

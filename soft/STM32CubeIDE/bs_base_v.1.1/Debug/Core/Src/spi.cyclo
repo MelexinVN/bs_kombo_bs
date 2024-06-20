@@ -1,0 +1,5 @@
+C:/Users/VMelehin/STM32Cube/Repository/STM32Cube_FW_F1_V1.8.5/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_ll_bus.h:761:22:LL_APB2_GRP1_EnableClock	1
+../Core/Src/spi.c:30:6:MX_SPI1_Init	1
+../Core/Src/spi.c:80:6:MX_SPI2_Init	2
+../Core/Src/spi.c:112:6:HAL_SPI_MspInit	2
+../Core/Src/spi.c:140:6:HAL_SPI_MspDeInit	2
