@@ -73,31 +73,31 @@ Each game button contains a control circuit on a stm32f030f4p6 microcontroller w
 
 - МикроПО базы и кнопки написаны в Keil uVision, есть вариант в STM32CubeIDE.
 - ПО для ОС Windows написано в Visual Studio.
-Все [исходники](https://github.com/MelexinVN/kombo_bs/tree/main/public/soft) доступны в репозитории.
+Все [исходники](https://github.com/MelexinVN/bs_kombo_bs/blob/main/soft) доступны в репозитории.
 
 ### Software
 
 - The microsoftware base and buttons are written in Keil uVision, there is an option in STM32CubeIDE.
 - Software for Windows OS is written in Visual Studio.
-All [sources](https://github.com/MelexinVN/kombo_bs/tree/main/public/soft) are available in the repository.
+All [sources](https://github.com/MelexinVN/bs_kombo_bs/blob/main/soft) are available in the repository.
 
 ### Печатные платы
 
-Печатные платы разработаны в KiCad 7.0, [исходники и гребер файлы](https://github.com/MelexinVN/kombo_bs/tree/main/public/pcb) также есть в репозитории - [плата контроллера кнопки](https://github.com/MelexinVN/kombo_bs/tree/main/public/pcb/bs_button_v.1.0), [плата базы](https://github.com/MelexinVN/kombo_bs/tree/main/public/pcb/bs_base_v.1.0)
+Печатные платы разработаны в KiCad 7.0, [исходники и гребер файлы](https://github.com/MelexinVN/bs_kombo_bs/blob/main/pcb) также есть в репозитории - [плата контроллера кнопки](https://github.com/MelexinVN/bs_kombo_bs/blob/main/pcb/bs_button_v.1.0), [плата базы](https://github.com/MelexinVN/bs_kombo_bs/blob/main/pcb/bs_base_v.1.0)
 
 ### Printed circuit boards
 
-The printed circuit boards were developed in KiCad 7.0, [source and comb files](https://github.com/MelexinVN/kombo_bs/tree/main/public/pcb) also available in the repository - [button controller board](https://github .com/MelexinVN/kombo_bs/tree/main/public/pcb/bs_button_v.1.0), [base board](https://github.com/MelexinVN/kombo_bs/tree/main/public/pcb/bs_base_v.1.0)
+The printed circuit boards were developed in KiCad 7.0, [source and comb files](https://github.com/MelexinVN/bs_kombo_bs/blob/main/pcb) also available in the repository - [button controller board](https://github.com/MelexinVN/bs_kombo_bs/blob/main/pcb/bs_button_v.1.0), [base board](https://github.com/MelexinVN/bs_kombo_bs/blob/main/pcb/bs_base_v.1.0)
 
 ### Корпуса
 
 Корпуса и вспомогательные детали изготовлены при помощи 3Д печати.
-Модели корпусов разработаны в программе OpenSCAD, [исходники и STL файлы](https://github.com/MelexinVN/kombo_bs/tree/main/public/3d) доступны в репозитории - [корпус кнопки](https://github.com/MelexinVN/kombo_bs/tree/main/public/3d/button_box_v.1.0), [корпус и детали базы](https://github.com/MelexinVN/kombo_bs/tree/main/public/3d/base_box_v.1.0)
+Модели корпусов разработаны в программе OpenSCAD, [исходники и STL файлы](https://github.com/MelexinVN/bs_kombo_bs/blob/main/3d) доступны в репозитории - [корпус кнопки](https://github.com/MelexinVN/bs_kombo_bs/blob/main/3d/button_box_v.1.0), [корпус и детали базы](https://github.com/MelexinVN/bs_kombo_bs/blob/main/3d/base_box_v.1.0)
 
 ### Housings
 
 The housings and auxiliary parts are made using 3D printing.
-Case models were developed in the OpenSCAD program, [sources and STL files](https://github.com/MelexinVN/kombo_bs/tree/main/public/3d) are available in the repository - [button case](https://github.com /MelexinVN/kombo_bs/tree/main/public/3d/button_box_v.1.0), [body and base details](https://github.com/MelexinVN/kombo_bs/tree/main/public/3d/base_box_v.1.0)
+Case models were developed in the OpenSCAD program, [sources and STL files](https://github.com/MelexinVN/bs_kombo_bs/blob/main/3d) are available in the repository - [button case](https://github.com/MelexinVN/bs_kombo_bs/blob/main/3d/button_box_v.1.0), [body and base details](https://github.com/MelexinVN/bs_kombo_bs/blob/main/3d/base_box_v.1.0)
 
 
 ### Краткое описание работы системы
@@ -124,7 +124,7 @@ Case models were developed in the OpenSCAD program, [sources and STL files](http
 Нажатие кнопки установки приводит к изменению звукового файла, воспроизводимого при нажатии игровой кнопки **ДО** пуска времени. При этом на дисплее появится название звука, один из пяти вариантов.
 *Примечание: выбранный звук сохранится после нажатия кнопки сроса, но вернется к стандартному при отключении питания*
 
-Звуки воспроизводятся с microSD карты памяти, втсавляемой в звуковой модуль. файлы можно заменить, но они должны иметь те же имена. Стандартное содержимое карты памяти можно найти [тут](https://github.com/MelexinVN/kombo_bs/tree/main/public/media/mp3). Файлы должны находиться в корне карты памяти.
+Звуки воспроизводятся с microSD карты памяти, втсавляемой в звуковой модуль. файлы можно заменить, но они должны иметь те же имена. Стандартное содержимое карты памяти можно найти [тут](https://github.com/MelexinVN/bs_kombo_bs/blob/main/media/mp3). Файлы должны находиться в корне карты памяти.
 
 
 ### Brief description of the system operation
@@ -151,7 +151,7 @@ Pressing the start time button causes the time countdown to begin - the correspo
 Pressing the set button changes the sound file played when the game button **BEFORE** the time starts is pressed. At the same time, the name of the sound will appear on the display, one of five options.
 *Note: The selected sound will remain after pressing the merge button, but will return to standard when the power is turned off*
 
-Sounds are played from a microSD memory card inserted into the sound module. the files can be replaced, but they must have the same names. The standard contents of the memory card can be found [here](https://github.com/MelexinVN/kombo_bs/tree/main/public/media/mp3). The files must be located in the root of the memory card.
+Sounds are played from a microSD memory card inserted into the sound module. the files can be replaced, but they must have the same names. The standard contents of the memory card can be found [here](https://github.com/MelexinVN/bs_kombo_bs/blob/main/media/mp3). The files must be located in the root of the memory card.
 
 
 ### Планы по развитию:
