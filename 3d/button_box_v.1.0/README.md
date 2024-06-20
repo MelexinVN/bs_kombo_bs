@@ -6,10 +6,7 @@
 
 ## Корпус игровой кнопки
 
-<img align="center" width=500 src="https://github.com/MelexinVN/kombo_bs/blob/main/public/3d/button_box_v.1.0/button_box_niz.PNG" />
+<img align="center" width=500 src="https://github.com/MelexinVN/bs_kombo_bs/blob/main/3d/button_box_v.1.0/button_box_niz.PNG" />
 
-<img align="center" width=500 src="https://github.com/MelexinVN/kombo_bs/blob/main/public/3d/button_box_v.1.0/button_box_verh.PNG" />
+<img align="center" width=500 src="https://github.com/MelexinVN/bs_kombo_bs/blob/main/3d/button_box_v.1.0/button_box_verh.PNG" />
 
-<img align="center" width=500 src="https://github.com/MelexinVN/bs_kombo_bs/blob/main/hardware/3d/button_box/button_box_niz.PNG" />
-
-<img align="center" width=500 src="https://github.com/MelexinVN/bs_kombo_bs/blob/main/hardware/3d/button_box/button_box_verh.PNG" />
