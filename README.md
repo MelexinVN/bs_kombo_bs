@@ -1,6 +1,6 @@
 # БС ("Брейн система")
 
-<img align="left" width=80 src="https://github.com/MelexinVN/bs_kombo_sidru/blob/main/media/logo_red.png" />
+<img align="left" width=80 src="https://github.com/MelexinVN/bs_kombo_bs/blob/main/media/logo_red.png" />
 
 В рамках проекта ["КомБО"](https://github.com/MelexinVN/bs_kombo) разработана электронная система для проведения интеллектуальных игр.
 Система без использования проводной связи позволяет устанавливать точную последовательность нажатий до 20 игровых кнопок.
@@ -52,19 +52,19 @@ The system consists of a base and a set of game buttons.
 База содержит контроллер (stm32f103c8t6 на плате bluepill), дисплей, радиомодуль nrf24l01+, кнопки управления, USB-мост, звуковой модуль и схему питания.
 The base contains a controller (stm32f103c8t6 on a bluepill board), a display, an nrf24l01+ radio module, control buttons, a USB bridge, a sound module and a power circuit.
 
-<img align="center" width=500 src="https://github.com/MelexinVN/kombo_bs/blob/main/public/media/photo_2024-06-20_09-03-27%20(2).jpg" />
-<img align="center" width=500 src="https://github.com/MelexinVN/kombo_bs/blob/main/public/media/photo_2024-06-20_09-03-27%20(3).jpg" />
+<img align="center" width=500 src="https://github.com/MelexinVN/bs_kombo_bs/blob/main/media/photo_2024-06-20_09-03-27%20(2).jpg" />
+<img align="center" width=500 src="https://github.com/MelexinVN/bs_kombo_bs/blob/main/media/photo_2024-06-20_09-03-27%20(3).jpg" />
 
 Каждая игровая кнопка содержит схему управления на микроконтроллере stm32f030f4p6 с радиомодулем nrf24l01+, схему питания и аркадную кнопку.
 Each game button contains a control circuit on a stm32f030f4p6 microcontroller with an nrf24l01+ radio module, a power circuit and an arcade button.
 
-<img align="center" width=500 src="https://github.com/MelexinVN/kombo_bs/blob/main/public/media/photo_2024-06-19_20-01-37.jpg" />
-<img align="center" width=500 src="https://github.com/MelexinVN/kombo_bs/blob/main/public/media/photo_2024-06-19_20-01-38%20(2).jpg" />
-<img align="center" width=500 src="https://github.com/MelexinVN/kombo_bs/blob/main/public/media/photo_2024-06-20_09-03-27.png" />
+<img align="center" width=500 src="https://github.com/MelexinVN/bs_kombo_bs/blob/main/media/photo_2024-06-19_20-01-37.jpg" />
+<img align="center" width=500 src="https://github.com/MelexinVN/bs_kombo_bs/blob/main/media/photo_2024-06-19_20-01-38%20(2).jpg" />
+<img align="center" width=500 src="https://github.com/MelexinVN/bs_kombo_bs/blob/main/media/photo_2024-06-20_09-03-27.png" />
 
 ### Схема соединений игровой кнопки Game Button Connection Diagram
 
-<img align="center" width=500 src="https://github.com/MelexinVN/kombo_bs/blob/main/public/media/button_schematic.png" />
+<img align="center" width=500 src="https://github.com/MelexinVN/bs_kombo_bs/blob/main/media/button_schematic.png" />
 
 *Примечание: в аркадной кнопке свотодиод и кнопка объединены в один блок*
 *Note: in the arcade button, the LED and the button are combined into one block*
@@ -108,7 +108,7 @@ Case models were developed in the OpenSCAD program, [sources and STL files](http
 После включения питания базы на дисплей выводится информация о устройстве, версии ПО, состоянию радиомодуля, номере канала.
 Через секунду база отправляет в эфир команду общего сброса. База готова к работе.
 
-<img align="center" width=300 src="https://github.com/MelexinVN/kombo_bs/blob/main/public/media/photo_2024-06-20_13-56-21.jpg" />
+<img align="center" width=300 src="https://github.com/MelexinVN/bs_kombo_bs/blob/main/media/photo_2024-06-20_13-56-21.jpg" />
 На верхней строчке дисплея номера кнопок от "0" до "j"
 
 По нажатию кнопки сброса система возвращается в исходное состояние и также отправляет в эфир команду общего сброса.
@@ -135,7 +135,7 @@ After turning on the power of each button, its LED blinks three short times (one
 After turning on the power of the base, information about the device, software version, radio module status, and channel number is displayed.
 A second later, the base sends a general reset command over the air. The base is ready for use.
 
-<img align="center" width=300 src="https://github.com/MelexinVN/kombo_bs/blob/main/public/media/photo_2024-06-20_13-56-21.jpg" />
+<img align="center" width=300 src="https://github.com/MelexinVN/bs_kombo_bs/blob/main/media/photo_2024-06-20_13-56-21.jpg" />
 On the top line of the display there are button numbers from “0” to “j”
 
 When the reset button is pressed, the system returns to its original state and also sends a general reset command over the air.
@@ -185,7 +185,7 @@ Sounds are played from a microSD memory card inserted into the sound module. the
 - канал Яндекс Дзен: 	      [dzen.ru/bs_kombo](https://dzen.ru/bs_kombo)
 
 
-<img align="left" width=150 src="https://github.com/MelexinVN/bs_kombo_sidru/blob/main/media/%D0%9C%D0%9D%D0%A5%D0%A1.png" />
+<img align="left" width=150 src="https://github.com/MelexinVN/bs_kombo_bs/blob/main/media/%D0%9C%D0%9D%D0%A5%D0%A1.png" />
 
 ### Авторы всегда рады отзывам и любым конструктивным предложениям по улучшению проекта! 
 ### The authors are always happy to receive feedback and any constructive suggestions for improving the project!
