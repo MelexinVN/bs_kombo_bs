@@ -47,6 +47,7 @@ The wireless system allows you to set the exact sequence of pressing up to 20 ga
 ### Состав системы System composition
 
 Система состоит из базы и комплекта игровых кнопок.
+
 The system consists of a base and a set of game buttons.
 
 База содержит контроллер (stm32f103c8t6 на плате bluepill), дисплей LCD2004, радиомодуль nrf24l01+, кнопки управления, USB-мост CP2102, звуковой модуль DFPlayer mini и схему питания.
@@ -57,6 +58,7 @@ The base contains a controller (stm32f103c8t6 on a bluepill board), an LCD2004 d
 <img align="center" width=500 src="https://github.com/MelexinVN/bs_kombo_bs/blob/main/media/photo_2024-06-20_09-03-27%20(3).jpg" />
 
 Каждая игровая кнопка содержит схему управления на микроконтроллере stm32f030f4p6 с радиомодулем nrf24l01+, схему питания и аркадную кнопку.
+
 Each game button contains a control circuit on a stm32f030f4p6 microcontroller with an nrf24l01+ radio module, a power circuit and an arcade button.
 
 <img align="center" width=500 src="https://github.com/MelexinVN/bs_kombo_bs/blob/main/media/photo_2024-06-19_20-01-37.jpg" />
