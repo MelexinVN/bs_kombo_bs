@@ -23,7 +23,7 @@ The wireless system allows you to set the exact sequence of pressing up to 20 ga
 - radio channel frequency - 2.4-2.56 GHz
 - communication range - 30 m indoors (may depend on the noise level of the room due to radio signals, partitions and obstacles)
 - number of buttons - up to 20 pcs.
-- each button is powered by a battery
+- each game button is powered by a battery
 - the base can be powered via a USB cable, or autonomously - from a battery
 
 ### Основные функции системы
@@ -40,7 +40,7 @@ The wireless system allows you to set the exact sequence of pressing up to 20 ga
 - display of the game progress on the display and in a special program on the PC
 - playback of sound files (mp3) for various events both via a PC and autonomously
 - ability to replace sound files
-- separate indication of the first button pressed
+- separate indication of the first pressed game button
 - the ability to move through the queue of pressed buttons
 - ability to start time and fix false start
 
@@ -68,7 +68,6 @@ Each game button contains a control circuit on a stm32f030f4p6 microcontroller w
 <img align="center" width=500 src="https://github.com/MelexinVN/bs_kombo_bs/blob/main/media/button_schematic.png" />
 
 *Примечание: в аркадной кнопке светодиод и кнопка объединены в один блок*
-*Note: in the arcade button, the LED and the button are combined into one block*
 
 ### Программное обеспечение
 
@@ -131,8 +130,8 @@ Case models were developed in the OpenSCAD program, [sources and STL files](http
 
 ### Brief description of the system operation
 
-After turning on the power of each button, its LED blinks three short times (one if the radio module is faulty). After which the button is ready for use
-*Note: in this way you can evaluate the power status of the button - if the brightness is low, the battery is discharged, if there is no blinking, the power circuit may be faulty*
+After turning on the power of each game button, its LED produces three short blinks (if the radio module is faulty - one). After which the game button is ready for use
+*Note: this way you can evaluate the power status of the game button - if the brightness is low, the battery is discharged, if there is no blinking, the power circuit may be faulty*
 
 After turning on the power of the base, information about the device, software version, radio module status, and channel number is displayed.
 A second later, the base sends a general reset command over the air. The base is ready for use.
@@ -142,18 +141,20 @@ On the top line of the display there are button numbers from “0” to “j”
 
 When the reset button is pressed, the system returns to its original state and also sends a general reset command over the air.
 **It is recommended to press the reset button after all buttons have been turned on. If any of the buttons was turned on after resetting the system, there may be an error in establishing the sequence of presses!**
-Each button receiving a reset command blinks its LED once.
+Each game button that receives a reset command blinks its LED once.
 
-Once the entire system is ready, pressing each button will line up on the second line of the display - also from "0" to "j" - and a sound file will be played. The LED of the first pressed button will blink, the others will light up.
+Once the entire system is ready, pressing each button will line up on the second line of the display - also from "0" to "j" - and a sound file will be played. The LED of the first pressed game button will blink, the others will light up.
 
-After pressing the queue transition button, the first button in the queue goes out, and the next one in the queue starts blinking.
+After pressing the queue switch button, the LED of the first game button in the queue goes out, and the next one in the queue starts blinking.
 
-Pressing the start time button causes the time countdown to begin - the corresponding sound signal is played, and a timer appears on the display, counting down the seconds.
+Pressing the start time button starts the countdown - a corresponding sound signal is played, and a timer appears on the display, counting down the seconds.
 
-Pressing the set button changes the sound file played when the game button **BEFORE** the time starts is pressed. At the same time, the name of the sound will appear on the display, one of five options.
-*Note: The selected sound will remain after pressing the merge button, but will return to standard when the power is turned off*
+Pressing the set button changes the sound file played when the game button **BEFORE** the time starts is pressed. In this case, the name of the sound will appear on the display, one of five options.
+*Note: The selected sound will remain after pressing the reset button, but will return to standard when the power is turned off*
 
-Sounds are played from a microSD memory card inserted into the sound module. the files can be replaced, but they must have the same names. The standard contents of the memory card can be found [here](https://github.com/MelexinVN/bs_kombo_bs/blob/main/media/mp3). The files must be located in the root of the memory card.
+The source of sounds during autonomous operation is the sound module, the audio output of which is connected to the case in the form of a 3.5 mm audio jack. The sound module plays mp3 audio files recorded on a microSD memory card. The files can be replaced, but they must have the same names. The standard contents of the memory card can be found [here](https://github.com/MelexinVN/bs_kombo_bs/blob/main/media/mp3). The files must be located in the root of the memory card.
+
+**It is possible to display the progress of the game and control the system using a top-level program. A description of the program and instructions can be found [here](https://github.com/MelexinVN/bs_kombo_bs/tree/main/soft/Visual%20Studio)**
 
 
 ### Планы по развитию:
