@@ -69,7 +69,6 @@ Each game button contains a control circuit on a stm32f030f4p6 microcontroller w
 
 <img align="center" width=500 src="https://github.com/MelexinVN/bs_kombo_bs/blob/main/media/button_schematic.png" />
 
-*Примечание: в аркадной кнопке светодиод и кнопка объединены в один блок*
 
 ### Программное обеспечение
 
