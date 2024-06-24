@@ -8,6 +8,8 @@
 As part of the project ["КомБО"](https://github.com/MelexinVN/bs_kombo), an electronic system for conducting intellectual games has been developed.
 The wireless system allows you to set the exact sequence of pressing up to 20 game buttons.
 
+<img align="center" width=500 src="https://github.com/MelexinVN/bs_kombo_bs/blob/main/media/photo_2024-06-20_09-03-27%20(2).jpg" />
+
 ### Основные характеристики системы
 
 - беспроводная связь базы с игровыми кнопками
@@ -153,7 +155,7 @@ Pressing the start time button starts the countdown - a corresponding sound sign
 Pressing the set button changes the sound file played when the game button **BEFORE** the time starts is pressed. In this case, the name of the sound will appear on the display, one of five options.
 *Note: The selected sound will remain after pressing the reset button, but will return to standard when the power is turned off*
 
-The source of sounds during autonomous operation is the sound module, the audio output of which is connected to the case in the form of a 3.5 mm audio jack. The sound module plays mp3 audio files recorded on a microSD memory card. The files can be replaced, but they must have the same names. The standard contents of the memory card can be found [here](https://github.com/MelexinVN/bs_kombo_bs/blob/main/media/mp3). The files must be located in the root of the memory card.
+The source of sounds during autonomous operation is the sound module, the audio output of which is connected to the case in the form of a 3.5 mm audio jack. The sound module plays mp3 audio files recorded on a microSD memory card. The files can be replaced, but they must have the same names. The standard contents of the memory card can be found [here](https://disk.yandex.ru/d/iv4f7-gtp3TiZA). The files must be located in the root of the memory card.
 
 **It is possible to display the progress of the game and control the system using a top-level program. A description of the program and instructions can be found [here](https://github.com/MelexinVN/bs_kombo_bs/tree/main/soft/Visual%20Studio)**
 
