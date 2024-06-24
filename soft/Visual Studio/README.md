@@ -1,14 +1,14 @@
 ##  Описание программы
 Программа для отображения хода игры и управления "Брейн системой".
 Программа написана для ОС Windows.
-Для запуска программы необходимо запустить файл [mozgocolco.exe](https://github.com/MelexinVN/kombo_bs/blob/main/public/soft/Visual%20Studio/mozgocolco_v.2.0/bin/Debug/mozgocolco.exe)
+Для запуска программы необходимо запустить файл [mozgocolco.exe](https://github.com/MelexinVN/bs_kombo_bs/blob/main/soft/Visual%20Studio/mozgocolco_v.2.0/bin/Debug/mozgocolco.exe)
 После запуска открывается **окно конфигурации** и **игровое окно**
   
 ### Описание окна конфигурации
 
 Окно конфигурации включает в себя **панель параметров порта, панель звуков, панель настроек игры, а также таблицу идентификаторов кнопок**
 
-<img align="center" width=500 src="https://github.com/MelexinVN/kombo_bs/blob/main/public/media/screen_1.PNG" />
+<img align="center" width=500 src="https://github.com/MelexinVN/bs_kombo_bs/blob/main/media/screen_1.PNG" />
 
 #### Панель параметров порта состоит из: #
 - выпадающего списка выбора номера порта,
@@ -17,7 +17,7 @@
 - поля для отправки тестовых данных в порт с кнопкой "отправить"
 - поля вывода принятых через порт данных с кнопкой "очистить" 
 
-<img align="center" width=250 src="https://github.com/MelexinVN/kombo_bs/blob/main/public/media/screen_4.png" />
+<img align="center" width=250 src="https://github.com/MelexinVN/bs_kombo_bs/blob/main/media/screen_4.png" />
 
 Описание работы с портом будет приведено ниже. 
 *Примечание: Стандартное значение скорости порта - 9600, количества битов - 8.*
@@ -26,7 +26,7 @@
 - выпадающих списков для выбора звуковых файлов формата *.mp3, воспроизводимых при соответствующих событиях
 - кнопок "Обновить" и "Загрузить"
 
-<img align="center" width=250 src="https://github.com/MelexinVN/kombo_bs/blob/main/public/media/screen_5.png" />
+<img align="center" width=250 src="https://github.com/MelexinVN/bs_kombo_bs/blob/main/media/screen_5.png" />
 
 Списки формируются из содержимого папки [sounds](https://github.com/MelexinVN/kombo_bs/tree/main/public/soft/Visual%20Studio/mozgocolco_v.2.0/bin/Debug/sounds) которая должна быть в той же папке, что и файл [mozgocolco.exe](https://github.com/MelexinVN/kombo_bs/blob/main/public/soft/Visual%20Studio/mozgocolco_v.2.0/bin/Debug/mozgocolco.exe).
 
@@ -42,7 +42,7 @@
 - выпадающего списка режимов игры
 - кнопки "Загрузить"
 
-<img align="center" width=250 src="https://github.com/MelexinVN/kombo_bs/blob/main/public/media/screen_6.png" />
+<img align="center" width=250 src="https://github.com/MelexinVN/bs_kombo_bs/blob/main/media/screen_6.png" />
 
 Основное время - время, которое дается на раздумье игрокам/командам. По его истечению воспроизводится соответствующий звуковой файл.
 
@@ -58,11 +58,11 @@
 
 #### таблица идентификаторов кнопок по умолчанию содержит их номера: #
 
-<img align="center" width=250 src="https://github.com/MelexinVN/kombo_bs/blob/main/public/media/screen_7.png" />
+<img align="center" width=250 src="https://github.com/MelexinVN/bs_kombo_bs/blob/main/media/screen_7.png" />
 
 Любой идентификатор можно изменить, введя новый текст в соответствующие ячейки таблицы и нажав кнопку "Загрузить". 
 
-<img align="center" width=250 src="https://github.com/MelexinVN/kombo_bs/blob/main/public/media/screen_3.PNG" />
+<img align="center" width=250 src="https://github.com/MelexinVN/bs_kombo_bs/blob/main/media/screen_3.PNG" />
 
 После изменения в поле хронологии игры в игровом окне вместо номера будет отображаться новое значение.
 
@@ -76,19 +76,19 @@
 - кнопки "Сброс", "Старт" и "Далее"
 - поле хронологии событий 
 
-<img align="center" width=250 src="https://github.com/MelexinVN/kombo_bs/blob/main/public/media/screen_2.PNG" />
+<img align="center" width=250 src="https://github.com/MelexinVN/bs_kombo_bs/blob/main/media/screen_2.PNG" />
 
 На панели игровых кнопок находятся пронумерованные изображения кнопок. При нажатии соответствующей игровой кнопки справа от изображения появляется порядковый номер нажатия.  
 
-<img align="center" width=250 src="https://github.com/MelexinVN/kombo_bs/blob/main/public/media/screen_8.png" />
+<img align="center" width=250 src="https://github.com/MelexinVN/bs_kombo_bs/blob/main/media/screen_8.png" />
 
 На панели времени отображается ход времени.
 
-<img align="center" width=250 src="https://github.com/MelexinVN/kombo_bs/blob/main/public/media/screen_9.png" />
+<img align="center" width=250 src="https://github.com/MelexinVN/bs_kombo_bs/blob/main/media/screen_9.png" />
 
 На поле хронологии событий отображается порядок нажатия кнопок, а также вспомогательная информация. Номер кнопки, название команды или имя игрока соответствуют значениям в таблице окна конфигурации.
 
-<img align="center" width=250 src="https://github.com/MelexinVN/kombo_bs/blob/main/public/media/screen_10.png" />
+<img align="center" width=250 src="https://github.com/MelexinVN/bs_kombo_bs/blob/main/media/screen_10.png" />
 
 При нажатии кнопки «Сброс» система приходит в исходное состояние – исчезают номера порядка нажатия, сбрасывается таймер, очищается поле хронологии. Пульт системы и дисплей реагируют также, как и при нажатии кнопки сброса на пульте.
 
