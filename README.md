@@ -8,7 +8,7 @@
 As part of the project ["КомБО"](https://github.com/MelexinVN/bs_kombo), an electronic system for conducting intellectual games has been developed.
 The wireless system allows you to set the exact sequence of pressing up to 20 game buttons.
 
-<img align="center" width=500 src="https://github.com/MelexinVN/bs_kombo_bs/blob/main/media/photo_2024-06-20_09-03-27%20(2).jpg" />
+<img align="center" width=500 src="https://github.com/MelexinVN/bs_kombo_bs/blob/main/media/photo_2024-06-21_18-24-34.jpg" />
 
 ### Основные характеристики системы
 
