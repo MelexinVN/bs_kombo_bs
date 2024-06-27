@@ -33,7 +33,7 @@
 
 <img align="center" width=250 src="https://github.com/MelexinVN/bs_kombo_bs/blob/main/media/screen_5.png" />
 
-Списки формируются из содержимого папки [sounds](https://github.com/MelexinVN/kombo_bs/tree/main/public/soft/Visual%20Studio/mozgocolco_v.2.0/bin/Debug/sounds) которая должна быть в той же папке, что и файл [mozgocolco.exe](https://github.com/MelexinVN/kombo_bs/blob/main/public/soft/Visual%20Studio/mozgocolco_v.2.0/bin/Debug/mozgocolco.exe).
+Списки формируются из содержимого папки [sounds](https://github.com/MelexinVN/bs_kombo_bs/blob/main/soft/Visual%20Studio/mozgocolco_v.2.0/bin/Debug/sounds) которая должна быть в той же папке, что и файл [mozgocolco.exe](https://github.com/MelexinVN/bs_kombo_bs/blob/main/soft/Visual%20Studio/mozgocolco_v.2.0/bin/Debug/mozgocolco.exe).
 
 Чтобы добавить или заменить файлы в списках, нужно добавить/заменить файлы в папке и нажать кнопку "Обновить". 
 После переназначения звуков на события необходимо нажать кнопку "Загрузить", чтобы изменения вступили в силу в программе.
