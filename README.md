@@ -164,14 +164,14 @@ The source of sounds during autonomous operation is the sound module, the audio 
 - **Переход на более компактную базу с цветным дисплеем**
 - **Отображение информации о наличии кнопок в эфире**
 - **Отображение информации об уровнях заряда кнопок и базы**
-- **Добавление возможности перехода на другие каналы в случае зашумленности помещения**
+- **Добавление возможности перехода на другие радиоканалы в случае зашумленности помещения**
 - **Более гибкая настройка программы верхнего уровня для большей информативности и для разных видов интеллектуальных игр**
 
 ### Development plans:
 - **Transition to a more compact base with a color display**
 - **Displaying information about the presence of buttons on air**
 - **Display information about charge levels of buttons and base**
-- **Add the ability to switch to other channels in case of a noisy room**
+- **Adding the ability to switch to other radio channels in case of a noisy room**
 - **More flexible configuration of the top-level program for greater information content and for different types of intellectual games**
 
 
