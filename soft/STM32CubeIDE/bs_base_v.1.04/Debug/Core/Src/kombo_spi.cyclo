@@ -1,0 +1,8 @@
+../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_ll_spi.h:289:22:LL_SPI_Enable	1
+../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_ll_spi.h:696:26:LL_SPI_IsActiveFlag_RXNE	2
+../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_ll_spi.h:707:26:LL_SPI_IsActiveFlag_TXE	2
+../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_ll_spi.h:1030:25:LL_SPI_ReceiveData8	1
+../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_ll_spi.h:1053:22:LL_SPI_TransmitData8	1
+../Core/Src/kombo_spi.c:11:6:spi_init	1
+../Core/Src/kombo_spi.c:31:6:spi_send_byte	3
+../Core/Src/kombo_spi.c:52:9:spi_change_byte	3

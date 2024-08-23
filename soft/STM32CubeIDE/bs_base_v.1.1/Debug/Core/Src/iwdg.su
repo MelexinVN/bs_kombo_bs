@@ -1,7 +1,0 @@
-C:/Users/VMelehin/STM32Cube/Repository/STM32Cube_FW_F1_V1.8.5/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_ll_iwdg.h:140:22:LL_IWDG_Enable	16	static
-C:/Users/VMelehin/STM32Cube/Repository/STM32Cube_FW_F1_V1.8.5/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_ll_iwdg.h:151:22:LL_IWDG_ReloadCounter	16	static
-C:/Users/VMelehin/STM32Cube/Repository/STM32Cube_FW_F1_V1.8.5/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_ll_iwdg.h:162:22:LL_IWDG_EnableWriteAccess	16	static
-C:/Users/VMelehin/STM32Cube/Repository/STM32Cube_FW_F1_V1.8.5/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_ll_iwdg.h:192:22:LL_IWDG_SetPrescaler	16	static
-C:/Users/VMelehin/STM32Cube/Repository/STM32Cube_FW_F1_V1.8.5/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_ll_iwdg.h:222:22:LL_IWDG_SetReloadCounter	16	static
-C:/Users/VMelehin/STM32Cube/Repository/STM32Cube_FW_F1_V1.8.5/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_ll_iwdg.h:275:26:LL_IWDG_IsReady	16	static
-../Core/Src/iwdg.c:28:6:MX_IWDG_Init	8	static

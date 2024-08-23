@@ -1,0 +1,8 @@
+../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_ll_iwdg.h:151:22:LL_IWDG_ReloadCounter	16	static
+../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_ll_usart.h:1862:26:LL_USART_IsActiveFlag_TXE	16	static
+../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_ll_usart.h:2474:22:LL_USART_TransmitData8	16	static
+../Core/Src/dfplayer.c:14:6:usart3_transmit	16	static
+../Core/Src/dfplayer.c:21:6:usart3_print	24	static
+../Core/Src/dfplayer.c:30:6:mp3_init	16	static
+../Core/Src/dfplayer.c:70:6:mp3_play	24	static
+../Core/Src/dfplayer.c:100:6:mp3_volume	24	static

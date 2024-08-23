@@ -1,0 +1,7 @@
+../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_ll_iwdg.h:140:22:LL_IWDG_Enable	1
+../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_ll_iwdg.h:151:22:LL_IWDG_ReloadCounter	1
+../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_ll_iwdg.h:162:22:LL_IWDG_EnableWriteAccess	1
+../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_ll_iwdg.h:192:22:LL_IWDG_SetPrescaler	1
+../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_ll_iwdg.h:222:22:LL_IWDG_SetReloadCounter	1
+../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_ll_iwdg.h:275:26:LL_IWDG_IsReady	2
+../Core/Src/iwdg.c:28:6:MX_IWDG_Init	2
