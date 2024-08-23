@@ -76,14 +76,18 @@ Each game button contains a control circuit on a stm32f030f4p6 microcontroller w
 
 - МикроПО базы и игровой кнопки написаны в Keil uVision, есть вариант в STM32CubeIDE.
 - ПО для ОС Windows написано в Visual Studio.
+
 Все [исходники](https://github.com/MelexinVN/bs_kombo_bs/blob/main/soft) доступны в репозитории.
+
 Готовые файлы прошивок доступны по следующим ссылкам - [прошивка базы](https://disk.yandex.ru/d/3vqxKnFV9-CHBA), [прошивки игровых кнопок (20 штук)](https://disk.yandex.ru/d/9PwJGGSHZjBadQ).
 
 ### Software
 
 - The microsoftware base and buttons are written in Keil uVision, there is an option in STM32CubeIDE.
 - Software for Windows OS is written in Visual Studio.
+
 All [sources](https://github.com/MelexinVN/bs_kombo_bs/blob/main/soft) are available in the repository.
+
 Ready-made firmware files are available at the following links - [base firmware](https://disk.yandex.ru/d/3vqxKnFV9-CHBA), [gaming button firmware (20 pieces)](https://disk.yandex.ru/d/9PwJGGSHZjBadQ).
 
 ### Печатные платы
