@@ -185,8 +185,6 @@ The source of sounds during autonomous operation is the sound module, the audio 
 
 ### Основной репозиторий: [bs_kombo](https://github.com/MelexinVN/bs_kombo)
 
-### Cайт проекта: [bs-kombo.tilda.ws](http://bs-kombo.tilda.ws/)
-
 ### Электронная почта: 		    [bskombo@yandex.ru](bskombo@yandex.ru)
 
 ### Социальные сети:
@@ -194,7 +192,6 @@ The source of sounds during autonomous operation is the sound module, the audio 
 - паблик ВКонтакте: 			  [vk.com/bs_kombo](https://vk.com/bs_kombo)
 - Telegram-канал: 	        [t.me/bskombo](https://t.me/bskombo)
 - Telegram-чат: 	          [t.me/bs_kombo_chat](https://t.me/bs_kombo_chat)
-- канал Яндекс Дзен: 	      [dzen.ru/bs_kombo](https://dzen.ru/bs_kombo)
 
 
 <img align="left" width=150 src="https://github.com/MelexinVN/bs_kombo_bs/blob/main/media/%D0%9C%D0%9D%D0%A5%D0%A1.png" />
